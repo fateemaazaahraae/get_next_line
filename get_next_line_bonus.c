@@ -6,7 +6,7 @@
 /*   By: fbazaz <fbazaz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/18 11:01:58 by fbazaz            #+#    #+#             */
-/*   Updated: 2023/12/18 15:36:35 by fbazaz           ###   ########.fr       */
+/*   Updated: 2023/12/20 14:57:20 by fbazaz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@
 char	*ft_read_line(int fd, char *str)
 {
 	char	*buffer;
-	int		read_bytes;
+	ssize_t	read_bytes;
 
-	buffer = (char *)malloc(sizeof(char) * (BUFFER_SIZE + 1));
+	buffer = (char *)malloc(BUFFER_SIZE + 1 * sizeof(char));
 	if (!buffer)
 		return (free(str), NULL);
 	read_bytes = 1;

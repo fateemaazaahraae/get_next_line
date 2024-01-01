@@ -6,7 +6,7 @@
 /*   By: fbazaz <fbazaz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 13:33:28 by fbazaz            #+#    #+#             */
-/*   Updated: 2023/12/18 10:40:15 by fbazaz           ###   ########.fr       */
+/*   Updated: 2023/12/20 11:50:47 by fbazaz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,12 +48,10 @@ char	*ft_strjoin(char *s1, char *s2)
 	size_t	len1;
 	char	*newstring;
 
-	if (!s1 && !s2)
-		return (NULL);
 	if (!s1)
 		return (ft_strdup(s2));
-	if (!s2)
-		return (ft_strdup(s1));
+	if (!s1 || !s2)
+		return (NULL);
 	len1 = ft_strlen(s1);
 	newstring = malloc((len1 + ft_strlen(s2) + 1) * sizeof(char));
 	if (!newstring)
