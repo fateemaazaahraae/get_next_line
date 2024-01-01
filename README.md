@@ -1,6 +1,6 @@
 <pre>                                                 📖 get_next_line : </pre><br>
 <pre>                                        <i>Reading a line on a fd is way too tedious </i><pre><br>
-💡 About the project : <br>
+<h1>💡 About the project : </h1><br>
 You will understand how files are opened, read and closed in an OS,
 and how they are interpreted by a programming language for further analysis.
 This task is crucial to understand for a future programmer since much of the time is based
