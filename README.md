@@ -1,5 +1,5 @@
 <pre>                                                 📖 get_next_line : </pre><br>
-<pre>                                           <i>Reading a line on a fd is way too tedious </i><pre><br>
+<pre>                                        <i>Reading a line on a fd is way too tedious </i><pre><br>
 💡 About the project : <br>
 You will understand how files are opened, read and closed in an OS,
 and how they are interpreted by a programming language for further analysis.
