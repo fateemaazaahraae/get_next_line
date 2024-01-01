@@ -1,4 +1,4 @@
-<pre>                                                 <strong>📖 get_next_line : </strong></pre><br>
+<h1>                                                 <strong>📖 get_next_line : </strong></h1><br>
 <p>                                        <i>Reading a line on a fd is way too tedious </i><p><br>
 <h1>💡 About the project : </h1><br>
 You will understand how files are opened, read and closed in an OS,
